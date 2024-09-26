@@ -1,0 +1,422 @@
+<html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>HCP</title>
+        <link rel="icon" type="image" href="hcp.png">
+        <link rel='stylesheet' href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+       <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+        
+        <link rel="stylesheet" href="index.css">
+      </head>
+      <body>
+          <nav id="nav">
+             <div class="container">
+                 <div class="nav-logo">
+                <img src="hcp.png" alt="HCP logo"> 
+                  </div>
+              
+              
+              <div class="nav-items d-lg-flex d-none">
+                <div class="item activeOne">
+                    <a href='#Academy'>Academy</a>
+                  </div>
+                 <div class="item ">
+                    <a href='#pathSection'>Learning Path</a>
+                  </div>
+                  <div class="item">
+                    <a href='#' id="Podcast">Podcast</a>
+                  </div>
+                  <div class="item">
+                    <a href='mailto:highercircuitprofessionals@gmail.com?subject=Inquiry&body=Hello,%20I%20want%20to%20make%20an%20enquiry.'>Contact Us</a>
+                  </div>
+                  <div class="item">
+                    <a href='payment.html' class="contactUs btn btn-primary">Begin This Journey</a>
+                  </div>
+                  <!--<div class="item">
+                    <a href='/Articles'>Articles</a>
+                  </div>-->
+              </div>
+                 
+                <div class="mobile-toggler d-lg-none">
+                   <a class="iconer" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i class='fa-solid fa-bars' id="icon"></i></a>
+                 </div>
+                 <div class="offcanvas-lg offcanvas-end d-lg-none" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+<div class="offcanvas-header" id="sidebar">
+  <h5 class="offcanvas-title" id="offcanvasResponsiveLabel"></h5>
+    <div id="close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"><i class="fa-solid fa-xmark"></i></div>
+</div>
+<div class="offcanvas-body">
+    <div class="nav-items1 d-lg-flex d-block">
+                <div class="item activeOne">
+                    <a href='#Academy'>Academy</a>
+                  </div>
+                 <div class="item activeTwo">
+                    <a href='#pathSection'>Learning Path</a>
+                  </div>
+                  <div class="item activeTwo">
+                    <a href='#' id="Podcast">Podcast</a>
+                  </div>
+                  <div class="item activeTwo">
+                    <a href='mailto:highercircuitprofessionals@gmail.com?subject=Inquiry&body=Hello,%20I%20want%20to%20make%20an%20enquiry.'>Contact Us</a>
+                  </div>
+                  <div class="item contactUs">
+                    <a href='payment.html' class="btn btn-primary">Begin This Journey</a>
+                  </div>
+              </div>
+</div>
+</div>
+                 
+          </div>
+        </nav>
+        <div class="hero-section">
+            <div class="hero container-fluid">
+                <div class="hero-text">
+                    <h1>Build your career as an <span>Electrical/Electronics Expert</span></h1>
+                    <p>Accelerate your path to excellence with our 1 month program in october with our academy</p>
+                    <div class="button-cover">
+                    <a href='payment.html' class="btn btn-primary" id="companyBtn">Click To Begin This Journey</a>
+                  </div>
+                  <p class="after-button">Get started in october</p>
+                  </div>
+                <div class="hero-image">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="path-section" id="pathSection">
+          <div class="path container-fluid">
+            <div class="path-text">
+            <h2>A complete path to <br><span>your desired career</span></h2>
+            <p>Our career paths are designed for all levels: from beginner to advanced - and have all you need to break into the field. </p>
+            </div>
+            <div class="path-objects">
+              <div class="path-object">
+                <h2 class="text-primary">Career Path</h2>
+                <h3>Circuit Design</h3>
+                <p>Create simple and complex circuit designs with electronics software (such as proteus).</p>
+                
+              </div>
+              <div class="path-object">
+                <h2 class="text-danger">Career Path</h2>
+                <h3>Embedded Systems</h3>
+                <p>Develop and maintain systems where hardware and software are tightly integrated to perform specific tasks.</p>
+                
+              </div>
+              <div class="path-object">
+                <h2 class="text-success">Career Path</h2>
+                <h3>Electrical Technology</h3>
+                <p>Dive into the field of installing, repairing and maintaining electrical systems and equipments.</p>
+              </div>
+              <div class="path-object">
+                <h2 class="text-warning">Career Path</h2>
+                <h3>Electronics technology</h3>
+                <p>Leverage on communicating, computing and controlling devices covering a wide range of technology in this field.</p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="boost-section">
+          <div class="boost container-fluid">
+            <div class="boost-text">
+              <h3>Boost your employability with <span>expert skills in this field</span></h3>
+              <p>Statistics showing the rate of job opportunities in various engineering discipline</p>
+
+            </div>
+            <canvas class="boost-image" id="myChart" width="400" height="200"></canvas>
+
+            <div class="boost-button">
+              <a href="payment.html" class="btn btn-primary" id="boostBtn">Click To Begin This Journey</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tutor-section">
+          <div class="tutor container-fluid">
+            <h4 class="tutor-upheader">Learn only from <span>the best tutors</span></h4>
+            <p class="tutor-up-para">This tutors are very experienced practitioners with a talent for making the complex simple.</p>
+            <div class="tutor-persons">
+              
+              <div class="tutor-person">
+                <div class="tutor-image image1">
+
+                </div>
+                <div class="tutor-text">
+                  <h4>Noah Aniah</h4>
+                  <p>Electronics Technician</p>
+                </div>
+              </div>
+
+              <div class="tutor-person">
+                <div class="tutor-image image2">
+
+                </div>
+                <div class="tutor-text">
+                  <h4>Daniel Etim</h4>
+                  <p>Automation Technician</p>
+                </div>
+              </div>
+
+              <div class="tutor-person">
+                <div class="tutor-image image3">
+
+                </div>
+                <div class="tutor-text">
+                  <h4>Simeon Ihuoma</h4>
+                  <p>Electrical Expert, Brand Marketing Manager</p>
+                </div>
+              </div>
+
+              <div class="tutor-person">
+                <div class="tutor-image image4">
+
+                </div>
+                <div class="tutor-text">
+                  <h4>David Olawuyi</h4>
+                  <p>Programmer</p>
+                </div>
+              </div>
+              <div class="tutor-person">
+                <div class="tutor-image image5">
+
+                </div>
+                <div class="tutor-text">
+                  <h4>Paschal Ngaoka</h4>
+                  <p>Software Developer</p>
+                </div>
+              </div>
+              </div>
+              <div class="tutor-button">
+                <a href="payment.html" class="btn btn-primary" id="tutorBtn">Click To Begin This Journey</a>
+              </div>
+              </div>
+            </div>
+
+            <div id='faq' class="container my-5">
+              <h4 id="faqHeader" class="text-center mb-4">Frequently Asked Questions</h4>
+              
+              <!-- Accordion for FAQ -->
+              <div class="accordion" id="faqAccordion">
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Will i earn a certification?
+                          </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                          <div class="accordion-body">
+                            Yes, Higher Circuit Professionals Academy will grant you a certificate after partaking in the one month program.
+                          </div>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              What is the cost of registration for the one month program?
+                          </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                          <div class="accordion-body">
+                              The registration cost a sum of 50,000 naira but we can accept a discount of 30,000 naira.
+                          </div>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              How practical is the program?
+                          </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                          <div class="accordion-body">
+                            This program features more hands-on practicals which will require you to design, program and undergo installation and automation.
+                          </div>
+                      </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          Will I become an Expert at Electrical and Electronics after going through this program?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, you will earn a very good experience in the Electrical and Electronics field which will be an added advantage for you.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Can I pay in installments?
+                      </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                          Yes, a sum of 20,000 will be accepted as the first installment, then mid-way during the program the balance will be paid.
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+
+            <div class="extra-section">
+              <div class="extra container-fluid">
+                <div class="extra-texts">
+                  <div class="extra-text">
+                    <h4>You want to be reliable in this field?</h4>
+                  </div>
+                  <div class="extra-button">
+                    <a href="payment.html" class="btn btn-primary" id="extraBtn">Begin This Exciting Journey With Us</a>
+                  </div>
+                </div>              
+              </div>
+            </div>
+
+            <div class="some-section"></div>
+
+            <footer>
+              <div class="footer-sections">
+                <div class="footer-section">
+                  <h5>Learn</h5>
+                  <ul>
+                    <li><a href="https://hillmancurtis.com/pcb-design-with-proteus/">Proteus Circuit Design</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/introduction-of-embedded-systems-set-1/">Embedded Systems</a></li>
+                    <li><a href="https://electricianphilippines.com/electrical-installation-work-what-is-it/#google_vignette">Electrical installation</a></li>
+                  </ul>
+                </div>
+
+                <div class="footer-section">
+                  <h5>Resources</h5>
+                  <ul>
+                    <li><a href="#" id="podcast">Podcast</a></li>
+                    <li><a href="https://youtu.be/pp5qQlhXBWA?si=XrJHTrpxbNfsX5Z4">Hands on Projects</a></li>
+                  </ul>
+                </div>
+                <div class="footer-section">
+                  <h5>Get Updates From</h5>
+                  <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100093643693592">Our Facebook Handle</a></li>
+                    <li><a href=" https://wa.me/2349136090197 ">Our WhatsApp Handle</a></li>
+                    <li><a href="mailto:highercircuitprofessionals@gmail.com?subject=Inquiry&body=Hello,%20I%20want%20to%20make%20an%20enquiry.">Our email</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="last-stuff footer-sections">
+                <img src="hcp.png" alt="HCP logo">
+                <p><small>&copy; 2024 Higher Circuit Professionals.</small></p>
+              </div>
+            </footer>
+       <!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>-->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!--<script src="https://kit.fontawesome.com/39e20aeda9.js" crossorigin="anonymous"></script>-->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        
+        <script>
+          $('a#podcast').click(function(){
+                alert('Sorry our team is currently working on this section and will be available very soon Thank you.')
+            });
+        </script>
+        <script>
+          // Get the context of the canvas element
+          var ctx = document.getElementById('myChart').getContext('2d');
+  
+          // Create the chart
+          var myChart = new Chart(ctx, {
+              type: 'bar',  // You can choose other chart types like 'line', 'pie', etc.
+              data: {
+                  labels: ['Elect/Elect', 'Computer and Software', 'Aerospace', 'Petroleum', 'Mechanical', 'Civil and Structures', 'Others'],
+                  datasets: [{
+                      label: 'Job Market Eff in Percentage (%)',
+                      data: [85.97, 84.9, 75.5, 75.05, 64.38, 50.9, 40.5],  // Data points for each label
+                      backgroundColor: [
+                          'rgba(54, 162, 235, 0.2)',
+                          'rgba(153, 102, 255, 0.2)',
+                          'rgba(255, 206, 86, 0.2)',
+                          'rgba(255, 159, 64, 0.2)',               
+                          'rgba(255, 99, 132, 0.2)',
+                          'rgba(75, 192, 192, 0.2)',
+                          'rgba(15, 12, 2, 0.2)'
+                      ],
+                      borderColor: [
+                          'rgba(54, 162, 235, 1)',
+                          'rgba(153, 102, 255, 1)',
+                          'rgba(255, 206, 86, 1)',
+                          'rgba(255, 159, 64, 1)',
+                          'rgba(255, 99, 132, 1)',
+                          'rgba(75, 192, 192, 1)',
+                          'rgba(15, 12, 2, 1)'
+                      ],
+                      borderWidth: 1
+                  }]
+              },
+              options: {
+                  scales: {
+                      y: {
+                          beginAtZero: true
+                      }
+                  }
+              }
+          });
+      </script>
+        
+        <script>
+
+          window.addEventListener('scroll', function() {
+            var nav = document.getElementById('nav');
+            
+            if(window.scrollY > 3) {
+              nav.classList.add('sticky');
+            }
+            else {
+              nav.classList.remove('sticky');
+            }
+            
+          })
+/*            // Select the navbar
+const navbar = document.getElementById('navbar');
+
+// Get the offset position of the navbar
+const sticky = navbar.offsetTop;
+
+// Function to add/remove "sticky" class based on scroll position
+function stickyNavbar() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add('sticky');
+    } else {
+        navbar.classList.remove('sticky');
+    }
+}
+
+// Attach the scroll event listener to window
+window.onscroll = function() {
+    stickyNavbar();
+};*/
+
+        </script>
+        <script>
+          // Scroll to top of the clicked question when opening an accordion item
+document.querySelectorAll('.accordion-button').forEach(button => {
+    button.addEventListener('click', function () {
+        const offsetTop = this.getBoundingClientRect().top + window.scrollY - 250;
+        window.scroll({
+            top: offsetTop,
+            behavior: 'smooth'
+        });
+    });
+});
+  
+      </script>
+
+   </body>
+ </html>  
