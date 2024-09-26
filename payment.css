@@ -59,7 +59,7 @@ div.body-section div.pay div.direct {
 div.body-section div.pay div.confirm {
     width: 350px;
     height: 450px;
-    padding: 70px 0;
+    padding: 50px 0;
     padding-left: 15px;
 }
 
@@ -157,7 +157,7 @@ div.body-section div.pay div.confirm div.pay-button a#payBtn:hover {
     div.body-section div.pay div.confirm ol {
         font-size: 14px;
         font-weight: 600;
-        margin-bottom: 50px;
+        margin-bottom: 35px;
         padding-left: 15px;
     }
     
