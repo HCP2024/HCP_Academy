@@ -48,7 +48,7 @@ div.body-section div.pay {
 div.body-section div.pay div.direct {
     width: 350px;
     height: 450px;
-    background: url('/flier2.jpg') no-repeat center top/cover;
+    background: url('flier2.jpg') no-repeat center top/cover;
     position: relative;
     left: -14px;
     border-top-left-radius: 10px;
@@ -121,7 +121,7 @@ div.body-section div.pay div.confirm div.pay-button a#payBtn:hover {
     div.body-section div.pay div.direct {
         width: 400px;
         height: 1000vh;
-        background: url('/flier2.jpg') no-repeat center top/cover;
+        background: url('flier2.jpg') no-repeat center top/cover;
         position: relative;
         left: -12px;
         top: -3px;
