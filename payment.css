@@ -59,7 +59,7 @@ div.body-section div.pay div.direct {
 div.body-section div.pay div.confirm {
     width: 350px;
     height: 450px;
-    padding: 50px 0;
+    padding: 20px 0;
     padding-left: 15px;
 }
 
@@ -68,7 +68,7 @@ div.body-section div.pay div.confirm h1 {
     text-align: center;
     font-weight: bold;
     color: #000;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 div.body-section div.pay div.confirm h1 span {
@@ -78,7 +78,7 @@ div.body-section div.pay div.confirm h1 span {
 div.body-section div.pay div.confirm p {
     font-size: 15px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 div.body-section div.pay div.confirm ol {
